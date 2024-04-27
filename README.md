@@ -12,6 +12,9 @@
 
 Mesh generator based on weighted voronoi stippling, where an image is taken as input, and its luminosity dictates mesh density.
 
+![anim](https://github.com/EJRicketts/WeightedVoronoiStipplingMesher/assets/80095742/2d316087-0099-405b-82db-548d3934c513)
+
+
 ## Sources of inspiration
 
 + [1] Journal article: [Paper link](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf) - Secord, A. (2002). Weighted Voronoi stippling. In Proceedings of the 2nd international symposium on Non-photorealistic animation and rendering. NPAR02: Non-Photorealistic Animation and Rendering. ACM. https://doi.org/10.1145/508530.508537

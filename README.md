@@ -5,7 +5,6 @@
 
 + **Author:** Evan John Ricketts
 + **Afffiliation:** Cardiff University
-+ **License:** BSD 3-Clause License
 + **Date:** April 27, 2024
 
 ## Description

@@ -14,11 +14,11 @@ Mesh generator based on weighted voronoi stippling, where an image is taken as i
 
 ## Sources of inspiration
 
-+ [1] Journal article: [Paper link](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf)
++ [1] Journal article: [Paper link](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf) - Secord, A. (2002). Weighted Voronoi stippling. In Proceedings of the 2nd international symposium on Non-photorealistic animation and rendering. NPAR02: Non-Photorealistic Animation and Rendering. ACM. https://doi.org/10.1145/508530.508537
 
-+ [2] Github repo: [Weighted voronoi stipplng](https://github.com/ReScience-Archives/Rougier-2017/tree/master/code)
++ [2] Github repo: [Weighted voronoi stipplng](https://github.com/ReScience-Archives/Rougier-2017/tree/master/code) - Jannis Vamvas
 
-+ [3] Github repo: [Particle Repulsion Mesher](https://github.com/vyastreb/ElectrostaticRepulsionMesher/blob/main/README.md)
++ [3] Github repo: [Particle Repulsion Mesher](https://github.com/vyastreb/ElectrostaticRepulsionMesher/blob/main/README.md) - Vlad Yastrebov
 
 + [4] YouTube video: [Coding Challenge 181: Weighted Voronoi Stippling](https://www.youtube.com/watch?v=Bxdt6T_1qgc&t=4s)
 
@@ -45,12 +45,12 @@ where it is assumed the images is in the `images` directory.
 
 The following parameters can be parsed
 ```python
-    npoin = 30000   # Number of particles
-    niter = 25             # Number of iterations
-    save = False      # Save array of final points
-    animate = False       # Animate the meshing process
-    plot = False     # Plot final mesh
-    dpi = 400               # Resolution of plots
+    npoin = 30000       # Number of particles
+    niter = 25          # Number of iterations
+    save = False        # Save array of final points
+    animate = False     # Animate the meshing process
+    plot = False        # Plot final mesh
+    dpi = 400           # Resolution of plots
 ```
 
 ## Examples
@@ -65,13 +65,13 @@ Command: `python main.py sbry.jpg --npoin 20000 --niter 25 --plot`
 
 Command: `python main.py RF3.png --npoin 20000 --niter 25 --plot`
 
-<img alt="original image" src="./images/RF3.png" width="300" /> <img alt="particles" src="./out/sbry.jpg/final_mesh.png" width="300" /> 
+<img alt="original image" src="./images/RF3.png" width="300" /> <img alt="particles" src="./out/RF3.png/final_mesh.png" width="300" /> 
 
 ### Skull
 
 Command: `python main.py skull.png --npoin 20000 --niter 25 --plot`
 
-<img alt="original image" src="./images/RF3.png" width="300" /> <img alt="particles" src="./out/sbry.jpg/final_mesh.png" width="300" /> 
+<img alt="original image" src="./images/skull.png" width="300" /> <img alt="particles" src="./out/skull.png/final_mesh.png" width="300" /> 
 
 
 ## Note

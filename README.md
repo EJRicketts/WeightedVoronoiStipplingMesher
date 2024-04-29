@@ -13,7 +13,7 @@ Mesh generator based on weighted voronoi stippling, where an image is taken as i
 
 ![anim](https://github.com/EJRicketts/WeightedVoronoiStipplingMesher/assets/80095742/2d316087-0099-405b-82db-548d3934c513)
 
-This can then be used in a number of ways, such as a finite element solver
+This can then be used in a number of ways, such as a finite element solver. Below is the solution of Poisson's equation with two souce terms.
 
 ![skull_FEM-ezgif com-crop](https://github.com/EJRicketts/WeightedVoronoiStipplingMesher/assets/80095742/61bf0f61-7176-46f7-9e35-c11ecbce7b4f)
 

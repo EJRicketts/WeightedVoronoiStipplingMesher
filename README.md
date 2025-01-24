@@ -12,6 +12,12 @@
 
 Mesh generator based on weighted Voronoi stippling, where an image is taken as input, and its luminosity dictates mesh density.
 
+![anim](https://github.com/EJRicketts/WeightedVoronoiStipplingMesher/assets/80095742/2d316087-0099-405b-82db-548d3934c513)
+
+This can then be used in a number of ways, such as a finite element solver. Below is the solution of Poisson's equation with two souce terms.
+
+![skull_FEM-ezgif com-crop](https://github.com/EJRicketts/WeightedVoronoiStipplingMesher/assets/80095742/61bf0f61-7176-46f7-9e35-c11ecbce7b4f)
+
 ## Sources of inspiration
 
 + [1] Journal article: [Paper link](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf) - Secord, A. (2002). Weighted Voronoi stippling. In Proceedings of the 2nd international symposium on Non-photorealistic animation and rendering. NPAR02: Non-Photorealistic Animation and Rendering. ACM. https://doi.org/10.1145/508530.508537
@@ -72,7 +78,6 @@ Command: `python main.py RF3.png --npoin 20000 --niter 25 --plot`
 Command: `python main.py skull.png --npoin 20000 --niter 25 --plot`
 
 <img alt="original image" src="./images/skull.png" width="300" /> <img alt="particles" src="./out/skull.png/final_mesh.png" width="300" /> 
-
 
 ## Note
 The code is provided as is and the author is not responsible for any damage caused by the code. GPT4 was utilised in the construction of the code.

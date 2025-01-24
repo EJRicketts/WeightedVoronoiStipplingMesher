@@ -4,21 +4,21 @@
 ## Information
 
 + **Author:** Evan John Ricketts
-+ **Afffiliation:** Cardiff University
++ **Affiliation:** Cardiff University
 + **License:** BSD 3-Clause License
 + **Date:** April 27, 2024
 
 ## Description
 
-Mesh generator based on weighted voronoi stippling, where an image is taken as input, and its luminosity dictates mesh density.
+Mesh generator based on weighted Voronoi stippling, where an image is taken as input, and its luminosity dictates mesh density.
 
 ## Sources of inspiration
 
 + [1] Journal article: [Paper link](https://www.cs.ubc.ca/labs/imager/tr/2002/secord2002b/secord.2002b.pdf) - Secord, A. (2002). Weighted Voronoi stippling. In Proceedings of the 2nd international symposium on Non-photorealistic animation and rendering. NPAR02: Non-Photorealistic Animation and Rendering. ACM. https://doi.org/10.1145/508530.508537
 
-+ [2] Github repo: [Weighted voronoi stipplng](https://github.com/ReScience-Archives/Rougier-2017/tree/master/code) - Jannis Vamvas
++ [2] GitHub repo: [Weighted voronoi stipplng](https://github.com/ReScience-Archives/Rougier-2017/tree/master/code) - Jannis Vamvas
 
-+ [3] Github repo: [Particle Repulsion Mesher](https://github.com/vyastreb/ElectrostaticRepulsionMesher/blob/main/README.md) - Vlad Yastrebov
++ [3] GitHub repo: [Particle Repulsion Mesher](https://github.com/vyastreb/ElectrostaticRepulsionMesher/blob/main/README.md) - Vlad Yastrebov
 
 + [4] YouTube video: [Coding Challenge 181: Weighted Voronoi Stippling](https://www.youtube.com/watch?v=Bxdt6T_1qgc&t=4s)
 
